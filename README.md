@@ -25,7 +25,3 @@ hello my friends this is my github page
 <a href ="#" class="btn">Watch my profile</a>
 <a href ="#" class="btn">any help</a>
 
-</header>
-</body>
-  </html>
-
