@@ -3,6 +3,13 @@
 padding:0;
 	font-family:Century Gothic;}
 p{color:white;}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/2020_05_14_15_21_IMG_7256.JPEG);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
 nav{
 background:#0082e6;
 	height:80px;width:100px;
@@ -91,13 +98,6 @@ nav ul li a{
 	#check:checked~ul{left:0;
 	}
 	}
-selction{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/2020_05_14_15_21_IMG_7256.JPEG);
-	height:100vh;
-	background-size:cover;
-	background-position:center;
-
-}
 
 
 
