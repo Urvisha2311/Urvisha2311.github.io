@@ -91,27 +91,6 @@ nav ul li a{
 	#check:checked~ul{left:0;
 	}
 	}
-.title{
-	position:absolute;
-	top:50%;
-	left:50%;
-	color:#fff;
-	transform:translate(-50%,-50%);
-}
-.button{
-	position:absolute;
-	top:60%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	color:#fff;
-	
-}
-.btn{
-	border:1px solid #fff;
-	padding:10px  30px;
-	color:#fff;
-}
-
 selction{
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/2020_05_14_15_21_IMG_7256.JPEG);
 	height:100vh;
