@@ -7,7 +7,8 @@ font-family:Century Gothic;
 header
 {
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/1.JPG);
-	height:100vh;
+	align:right;
+	height:50vh;
 	background-size:cover;
 	background-position:center;
 }
