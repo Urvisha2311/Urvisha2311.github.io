@@ -42,7 +42,7 @@ font-family:'Roboto',sans-serif;
 ul li:hover a
 {
 	padding-left:50px;
-	background-color:#FFFFFF	;
+	background-color:#FFFFFF;
 	color:#000000;
 
 }
@@ -115,7 +115,6 @@ color:#ffffff;
   width: 20%;
   font-size: 20px;
   padding-right: 20px;
-  clear: left;
   color:#ffffff;
   text-align:center;
   transition: 0.3s;
@@ -123,7 +122,6 @@ color:#ffffff;
 }
 
 .about-btn-text:hover{
-  letter-spacing: 0.7;
   text-decoration: underline;
   transition: 0.3s;
 }
