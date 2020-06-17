@@ -87,6 +87,7 @@ label #cancel{
 #check:checked ~label #cancel{
 	left:195px;}
 .work-name{
+text-align:center;
   font-size: 30px;
 	color:#ffffff;
 
