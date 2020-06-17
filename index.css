@@ -2,12 +2,18 @@
 body{
 font-family:'Roboto',sans-serif;
 }
+div
+{
+	height:200px;
+	width:50px;
+}
 *{
 	margin:0;
 	padding:0;
 	list-style:none;
 	text-decoration:none;
 }
+img
 .sidebar{
 	position:fixed;
 	left:-250px;
@@ -83,14 +89,4 @@ label #cancel{
 }
 #check:checked ~label #cancel{
 	left:195px;}
-section
-{
-	background:url(images/2020_05_14_15_21_IMG_7256.JPEG) no-repeat;
-	background-position:center;
-	background-size:cover;
-	height:100vh;
-		
-	}
-
-
 
