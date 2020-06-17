@@ -88,12 +88,13 @@ label #cancel{
 	left:195px;}
 
 .my-name{
-  font-size:100%;
+  font-size:400%;
+	font-family:"300%";
   margin-top: 100px;
 color:#ffffff;
 text-align:center;
 }
-
+p{color:#fffff;}
 section
 { background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/2020_05_14_15_21_IMG_7256.JPEG) no-repeat;
 	background-position:center;
@@ -101,5 +102,5 @@ section
 	height:100vh;
 	
 }
-p{color:#fffff;}
+
 
