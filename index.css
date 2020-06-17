@@ -97,6 +97,7 @@ label #cancel{
   font-weight: 600;
   margin-bottom: 75px;
 color:#ffffff;
+	text-align:center;
 }
 
 .about-me-brief{
@@ -116,6 +117,7 @@ color:#ffffff;
   padding-right: 20px;
   clear: left;
   color:#ffffff;
+  text-align:center;
   transition: 0.3s;
   vertical-align: middle;
 }
