@@ -88,17 +88,21 @@ label #cancel{
 	left:195px;}
 .work-name{
   font-size: 30px;
+	color:#ffffff;
+
 }
 
 .my-name{
   font-size: 500%;
   font-weight: 600;
   margin-bottom: 75px;
+color:#ffffff;
 }
 
 .about-me-brief{
   display: block;
-  width: 40%;
+  width: 40;
+color:#ffffff;
   text-align: justify;
 }
 
