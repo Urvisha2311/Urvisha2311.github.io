@@ -1,62 +1,88 @@
-
-*{margin:0;
-padding:0;
-	font-family:Century Gothic;}
-p{color:white;
-margin:left;}
-header
-{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/2020_05_14_15_21_IMG_7256.JPEG);
-	height:100vh;
-	background-size:cover;
-	background-position:center;
+@import url(https://www.w3schools.com/icons/fontawesome5_intro.asp);
+body{
+font-family:'Roboto',sans-serif;
 }
-ul
-{
-	float:left;
-    list-style-type:none;
-	margin-top:80px;
-	
-	
-}
-ul li{
-	display:inline-block;
-}
-ul li a{
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
 	text-decoration:none;
-	color:#fff;
-	padding:5px 20px;
-	border:1px solid #fff;
-	transition:0.6s ease;
 }
-ul li a:hover{
-	background-color:#fff;
-	color:#000;
+.sidebar{
+	position:fixed;
+	left:-250px;
+	width:250px;
+	height:100%;
+	background:#042331;
+	transition:all .5s ease;
 }
-ul li.active a{
-	background-color:#fff;
-	color:#000;
-
+.sidebar header
+{
+	font-size:22px;
+	color:white;
+	text-align:center;
+	line-height:70px;
+	background:#063146;
 	
 }
-.title{
-	position:absolute;
-	top:50%;
-	left:50%;
-	color:#fff;
-	transform:translate(-50%,-50%);
+.sidebar ul a
+{
+	display:block;
+	height:10%;
+	width:100%;
+	line-height:65px;
+	font-size:20px;
+	color:white;
+	padding-left:40px;
+	box-sizing:border-box;
+	border-top:1px solid rgba(255,255,255,.1);
+	border-bottom:1px solid black;
+	transition: .4s;
 }
-.button{
-	position:absolute;
-	top:60%;
-	left:50%;
-	transform:translate(-50%,-50%);
+ul li:hover a
+{
+	padding-left:50px;
+}
 
-	color:#fff;
+.sidebar ul a i
+{
+	margin-right:16px;
+}
+#check
+{display:none;}
+label #btn,lable #cancel{
+	position:absolute;
+	cursor:pointer;
+	background:#042331;
+	border-radius:3px;
 	
 }
-.btn{
-	border:1px solid #fff;
-	padding:10px  30px;
-	color:#fff;
+label #btn{
+	left:40px;
+	top:25px;
+	font-size:35px;
+	color:white;
+	padding:6px 12px;
+	transition:all .5s;
 }
+label #cancel{
+	z-index:1111;
+	right:195px;
+	top:17px;
+	font-size:30px;
+	color:#0a5275;
+	padding:4px 9px;
+}
+#check:checked ~.sidebar{
+	left:0;
+}
+#check:checked ~label #btn{
+	left:250px;
+	opacity:0;
+	pointer-events:none;
+}
+#check:checked ~label #cancel{
+	left:195px;}
+
+
+
