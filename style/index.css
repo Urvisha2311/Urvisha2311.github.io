@@ -8,7 +8,8 @@ font-family: 'Flamenco', cursive;
 	padding:0;
 	list-style:none;
 	text-decoration:none;
-}
+	background-color:black;
+  }
 
 .home-div{
   left: 25px;
