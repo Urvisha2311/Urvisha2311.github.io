@@ -8,14 +8,10 @@ font-family: 'Flamenco', cursive;
 	padding:0;
 	list-style:none;
 	text-decoration:none;
-}
-section
-{ background: url(image/1.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+	
+body
+{
+	background: url(image/2.jpeg)
 }
 .home-div{
   left: 25px;
