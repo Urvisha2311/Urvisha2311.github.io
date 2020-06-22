@@ -15,34 +15,6 @@ font-family: 'Flamenco', cursive;
   position: absolute;
   z-index: 2;
 }
-.div-left{
-  background-color:black;
-  width: 50%;
-  height: 100%;
-  float:left;
-  position: absolute;
-  top: 45;
-  left: 0;
-  bottom: 0;
-}
-.div-right{
-  background-image: url(image/2.JPEG); 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position:absolute;
-  width: 50%;
-  height: 100%;
-  float:right;
-  position:absolute;
-  top:45;
-  right: 0;
-  bottom: 0;
-  opacity: 0.8;
-  animation: 1s ease-out 0s 1 slideInFromBottom;
-}
-
-
 .sidebar{
 	position:fixed;
 	left:-250px;
