@@ -1,6 +1,8 @@
 @import url(https://www.w3schools.com/icons/fontawesome5_intro.asp);
 body{
 font-family: 'Flamenco', cursive;
+	background-color:#000000;
+  
 }
 
 *{
@@ -8,8 +10,7 @@ font-family: 'Flamenco', cursive;
 	padding:0;
 	list-style:none;
 	text-decoration:none;
-	background-color:#000000;
-  }
+	}
 
 .home-div{
   left: 25px;
