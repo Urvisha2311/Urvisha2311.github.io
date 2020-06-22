@@ -59,17 +59,6 @@ h1
 	
 }
 
-.container .box .icon .fa{
-position:center;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-font-size:80px;
-transition:0.5s;
-color:#6eeada;
-	
-}
-
 .container .box .content {
 	color:white;
 	position:center;
