@@ -51,7 +51,15 @@ h1
 	transition:0.5s;
 	z-index:1;
 }
-/*.container .box .icon .fa{
+.container .box:hover .icon{
+	top:20px;
+	left:calc(50% -40px);
+	width:80px/2;
+	height:80px;
+	
+}
+
+.container .box .icon .fa{
 position:center;
 top:50%;
 left:50%;
@@ -60,7 +68,8 @@ font-size:80px;
 transition:0.5s;
 color:#6eeada;
 	
-}*/
+}
+
 .container .box .content {
 	color:white;
 	position:center;
