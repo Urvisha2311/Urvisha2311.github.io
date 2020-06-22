@@ -51,13 +51,13 @@ h1
 	transition:0.5s;
 	z-index:1;
 }
-.container .box:hover .icon{
+/*.container .box:hover .icon{
 	top:20px;
 	left:calc(50% -40px);
 	width:80px/2;
 	height:80px;
 	
-}
+}*/
 
 .container .box .content {
 	color:white;
