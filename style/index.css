@@ -9,6 +9,14 @@ font-family: 'Flamenco', cursive;
 	list-style:none;
 	text-decoration:none;
 }
+section
+{ background: url(image/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 .home-div{
   left: 25px;
   top: 20px;
