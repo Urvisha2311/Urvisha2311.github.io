@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Side menubar</title>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<link rel="stylesheet" href="style/index.css">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div class="div-left"></div>
+ <div class="div-right"></div>
+ 	  
+     
+<input type="checkbox" id="check">
+<label for="check">
+<i class="fas fa-bars" id="btn"></i>
+<i class="fas fa-times" id="cancel"></i>
+</label>
+
+	<div class="sidebar">
+	<ul>
+	<li><a href="menubar.html"><i class='fas fa-house-user'></i>HOME</a></li>	
+	<li><a href="profile.html"><i class="far fa-address-book"></i>MY PROFILE</a></li>
+	<li><a href="about.html"><i class="fas fa-indent"></i>ABOUT</a></li>
+	<li><a href="education.html"><i class="fas fa-graduation-cap"></i>EDUCATION</a></li>
+	<li><a href="contact.html"><i class="fas fa-phone-square-alt"></i>CONTACT</a></li>
+	<li><a href="hobby1.html"><i class="far fa-grin"></i>HOBBIES</a></li>
+	</ul>
+	<div class="social-media-div">
+          <a class="img-link" href="https://www.instagram.com/urvi_23_11/" target="_blank_"><img src="image/instagram.jpg" height="40px" width="40px"  alt="ig" /></a>
+          <a class="img-link" href="https://twitter.com/Urvisha29598487" target="_blank_"><img src="image/twitter.png"  height="40px"width="40px" alt="in"/></a>
+          <a class="img-link" href="https://github.com/Urvisha2311" target="_blank_"><img src="image/github1.png" height="40px" width="40px" alt="git" /></a>
+        </div>
+		
+</div>
+</div>
+
+      
+    
+<div class="main-page">
+      
+<h1>Hello!!!<br><span class="colorchange">My self Urvisha Undhad.</span><br>I am web developer.<br></h1>
+<a  href="about.html" class="ancor-about"><span class="btn btn-full">More About</span></a>
+</div>
+
+
+</header>
+<script>
+      const cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove', e => {
+        cursor.setAttribute('style', 'display:block; top:' + e.pageY + 'px; left:' + e.pageX+'px')
+      })
+    </script>
+  
+</body>
+
+</html>

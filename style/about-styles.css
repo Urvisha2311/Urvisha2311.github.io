@@ -1,0 +1,318 @@
+@keyframes appear{
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
+
+@keyframes slideInFromTop{
+    0%{
+      transform: translateY(20%);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
+
+html{
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background: transparent;
+    margin: 0;
+    cursor: none;
+}
+
+.cursor{
+    width: 25px;
+    height: 25px;
+    border: 4px solid orange;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    display: none;
+}
+
+html, body{
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  background-color:black;
+}
+
+ 
+ .home-div{
+    right: 25px;
+    top: 20px;
+    position: absolute;
+    z-index: 2;
+ }
+
+ .home-div>a{
+    cursor: none;
+ }
+.sidebar{
+	position:fixed;
+	left:-250px;
+	width:250px;
+	height:120%;
+	background:#042331;
+	transition:all .5s ease;
+}
+.sidebar ul a
+{
+	display:block;
+	height:10%;
+	width:100%;
+	line-height:65px;
+	font-size:20px;
+	color:white;
+	padding-left:40px;
+	box-sizing:border-box;
+	border-top:1px solid rgba(255,255,255,.1);
+	border-bottom:1px solid black;
+	transition: .4s;
+}
+
+ul li:hover a
+{
+	padding-left:50px;
+	background-color:#fff;
+	color:#000;
+}
+
+.sidebar ul li a i
+{
+	margin-right:20px;
+}
+ #check
+{display:none;}
+label #btn,lable #cancel{
+	position:bottom;
+	cursor:pointer;
+	background:#042331;
+	border-radius:3px;
+	
+}
+label #btn{
+	left:40px;
+	top:10px;
+	font-size:35px;
+	color:white;
+	padding:6px 12px;
+	transition:all .5s;
+}
+label #cancel{
+	z-index:1111;
+	left:195px;
+	top:10px;
+	font-size:30px;
+	color:#0a5275;
+	padding:4px 10px;
+}
+#check:checked ~.sidebar{
+	left:0;
+}
+#check:checked ~label #btn{
+	left:250px;
+	opacity:0;
+	pointer-events:none;
+}
+#check:checked ~label #cancel{
+	left:195px;}
+
+.sidenav .closebtn:hover{
+    color: #f1f1f1;
+    font-size: 60px;
+    color: black;
+}
+
+  
+.img-link{
+    float: left;
+    padding: 0 0 10px 10px;
+}
+  
+.img-link:hover{
+    background-color: transparent;
+    display: inline-block;
+}
+
+.about-me-title-div{
+	color:white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 70px;
+    font-size: 150%;
+    margin: 0 auto;
+    width: 100%;
+    animation: 1s cubic-bezier(0.95, 0.05, 0.795, 0.035) 0s 1 slideInFromTop;
+}
+
+.profile-photo-div{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: -150px;
+    left: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.profile-photo-div>img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.resume-link-div{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.resume-link{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.about-me-content{
+    background-image: linear-gradient( 65.5deg, rgba(135, 242, 215) -15.1%, rgba(51, 221, 210) 71.5% );
+    padding: 50px;  
+    margin: 50px;
+    border-radius: 20px;
+	border-color:white;
+    font-size: x-large;
+    animation: 1s ease 0s 1 appear;
+}
+
+
+.skills-technologies-div{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.programming-languages-div,.develpment-div,.database-div, .version-control-div{
+    float: left;
+    position: relative;
+    width: 42%;
+    float:left;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.progress-outer{
+    border-radius: 5px;
+    height: 15px;
+    background-color:white;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.progress-inner{
+    background-color: #d9801a;
+    background: linear-gradient(to right,#046358 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 2s ease;
+    height: 10px;
+    vertical-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.progress-inner.is-visible{
+    background-position: left bottom;
+}
+
+@media screen and (max-width: 991px) {
+    .sidenav {
+      padding-top: 60px;
+      z-index: 4;
+    }
+  
+    .menu-button {
+      top: 5px;
+      right: 25px;
+    }
+  
+    .home-div{
+      
+      right: 20px;
+    }
+  
+    .sidenav a {
+      font-size: 18px;
+    }
+
+    .menu-bar-div{
+        background-color: black;
+        height: 52px;
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .profile-photo-div{
+        height: 70px;
+        width: 70px;
+        margin-top: -80px;
+        right: 70px;
+    }
+
+    .about-me-content{
+        font-size: 70%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .resume-link{
+        padding: 10px;
+        margin-top: -10px;
+        right: 77px;
+    }
+
+    .profile-photo-div>img{
+        height: 70px;
+        width: 75px;
+    }
+
+    .hobby{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .programming-languages-div,.develpment-div,.database-div, .version-control-div{
+        width: 80%;
+        padding: 20px;
+    }
+
+    .progress-outer{
+        height: 20px;
+    }
+
+    .progress-inner{
+        height: 15px;
+    }
+}
