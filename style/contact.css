@@ -40,7 +40,7 @@ h1
 }*/
 .contact-info
 {
-	display:flex;
+	position:relative;
 	width:100%;
 	max-width:1000px;
 	align-items:center;
