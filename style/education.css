@@ -22,9 +22,9 @@ h1
 .container
 {
 	position:relative;
-	/*width:1200px;*/
+	width:1200px;
 	height:80px;
-	margin:0;
+	/*margin:250px auto;*/
 	
 	
 }
@@ -58,7 +58,16 @@ h1
 	height:80px;
 	
 }
-
+/*.container .box .icon .fa{
+position:center;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:80px;
+transition:0.5s;
+color:#6eeada;
+	
+}*/
 .container .box .content {
 	color:white;
 	position:center;
@@ -68,7 +77,3 @@ h1
 	padding:20px;
 	box-sizing:border-box;
 }
-
-	.h3
-	 {
-	 color:white;}
