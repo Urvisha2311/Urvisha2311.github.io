@@ -53,8 +53,8 @@ font-family: 'Flamenco', cursive;
 ul li:hover a
 {
 	padding-left:50px;
-	background-color:#ffffff;
-	color:#000000;
+	background-color:white;
+	color:black;
 
 
 }
